@@ -9,12 +9,8 @@ Welcome to my web development repository! Here, I showcase my learning and proje
   - [Portfolio Website](#portfolio-website)
   - [Planet Sell Landing Page](#planet-sell-landing-page)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Future Additions](#future-additions)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Introduction
 
