@@ -1,7 +1,3 @@
-Sure! Here's a sample `README.md` file for your GitHub repository focused on web development:
-
----
-
 # Web Development Projects
 
 Welcome to my web development repository! Here, I showcase my learning and projects using HTML, CSS, and JavaScript. This repository includes various web projects such as a Parallax Website, a Portfolio Website, and a Planet Sell Landing Page. I will continue to add more projects as I progress.
