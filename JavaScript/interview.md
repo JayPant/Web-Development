@@ -1,6 +1,3 @@
-Sure, here's the document with the questions grouped by topic:
-
-```markdown
 # Technical Interview Preparation
 
 ## JavaScript
@@ -271,6 +268,3 @@ Sure, here's the document with the questions grouped by topic:
    - Regularly update the challenge generation algorithm to stay ahead of automated solvers.
 
 ---
-
-Feel free to ask if you need more details or additional topics covered!
-```
