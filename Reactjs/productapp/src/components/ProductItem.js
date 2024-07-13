@@ -1,28 +1,29 @@
-import React from 'react';
+import React, { useState } from "react";
 
-import ProductDate from './ProductDate';
-import Card from './Card';
-import './ProductItem.css';
+import ProductDate from "./ProductDate";
+import Card from "./Card";
+import "./ProductItem.css";
 
 const ProductItem = (props) => {
+  const [title, setTitle] = useState(props.title);
 
-  const title = props.title;
-  function clickHandler(){
-    console.log("Button clicked")
+  function clickHandler() {
+    setTitle("Popcorn");
+    console.log("Button clicked");
   }
 
   return (
-    <Card className='product-item'>
+    <Card className="product-item">
       <ProductDate date={props.date} />
-      <div className='product-item__description'>
-        <h2>{props.title}</h2>
+      <div className="product-item__description">
+        <h2>{title}</h2>
       </div>
       <button onClick={clickHandler}> Add to Cart</button>
     </Card>
   );
-}
+};  
 
 export default ProductItem;
 
-// 11:01
+
 // react basics 2

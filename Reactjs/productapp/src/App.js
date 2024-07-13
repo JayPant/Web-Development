@@ -1,4 +1,6 @@
 import React from 'react';
+import NewProduct from './components/NewProduct';
+
 import Products from './components/Products';
 
 const App = () => {
@@ -28,8 +30,14 @@ const App = () => {
     },
   ];
 
+  function printProductData(data) {
+    console.log("i am inside APP.js")
+    console.log(data)
+  }
+
   return (
     <div>
+      <NewProduct pranay = {printProductData} />
       <Products items={products} />
     </div>
   );
